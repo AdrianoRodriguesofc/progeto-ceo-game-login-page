@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Red+Hat+ Display :wght@300;900 & display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    background: border-box;
+}
+
+body {
+    background-image: url(../assets/images/36\ Sem\ Título_20230527210806.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    margin-top: 10%;
+}
+
+article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.116);
+    height: 400px;
+    width: 300px;
+    border: 2px solid rgba(255, 255, 255, 0.315);
+    border-radius: 50px 0px 50px 0px; 
+    padding: 10px;
+}
+
+article h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    position: absolute;
+    top: 5%;
+    left: 90px;
+}
+
+.text-cadastro {
+    position: absolute;
+    top: 20%;
+    left: 101px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+}
+
+article p {
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+}
+
+article input{
+    margin-bottom: 7px;
+    padding: 5px;
+    background-color: #14235754;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 19px;
+    margin-top: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.932);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #0F63BC;
+}
+
+article button {
+    cursor: pointer;
+    background-color: #14235796;
+    bottom: 10px;
+    width: 250px;
+    height: 40px;
+    margin: 10px auto;
+    border-radius: 40px;
+}
+
+article > div.cadastro {
+    position: absolute;
+    bottom: 20%;
+    left: 11%;
+}
+
+article > div > p {
+    width: 240px;
+}
